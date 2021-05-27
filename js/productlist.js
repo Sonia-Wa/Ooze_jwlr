@@ -1,7 +1,16 @@
 const url = "https://kea21s2-040e.restdb.io/rest/ooze-database";
 
-fetch (url) 
+const key = {
+    headers: {
+      "x-apikey": "606d5f59f55350043100750e	",
+    },
+  };
+
+
+
+fetch (url, key) 
     .then(function (res) {
+        console.log(res);
         return res.json();
     })
     .then(function (data){
@@ -9,7 +18,7 @@ fetch (url)
     });
 
     function allProducts(data) {
-        data.foreach(showProducts);
+        data.forEach(showProducts);
     }
 
     function showProducts(jewelry) {
@@ -20,7 +29,7 @@ fetch (url)
         const copy = template.cloneNode(true);
 
         //content change
-        copy.querySelector(".img").src = jewelry.main_img;
+        copy.querySelector("img").src = jewelry.image;
 
         copy.querySelector(".piece-name").textContent = jewelry.name;
 
