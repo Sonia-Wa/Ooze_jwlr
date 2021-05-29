@@ -1,4 +1,9 @@
-const url = "https://kea21s2-040e.restdb.io/rest/ooze-database";
+const urlParams = new URLSearchParams(window.location.search);
+//in the URL grab ID and store it's value in id
+const id = urlParams.get("id");
+
+const url = "https://kea21s2-040e.restdb.io/rest/ooze-database?id=" +
+id;
 
 const key = {
     headers: {
@@ -10,7 +15,6 @@ const key = {
 
 fetch (url, key) 
     .then(function (res) {
-        console.log(res);
         return res.json();
     })
     .then(function (data){
@@ -21,9 +25,10 @@ fetch (url, key)
         data.forEach(showProduct);
     }
 
+
     function showProduct(jewelry) {
         //template
-        const template = document.querySelector("#prodview-temp").content;
+        const template = document.querySelector("#prodview").content;
 
         //clone
         const copy = template.cloneNode(true);
@@ -42,7 +47,7 @@ fetch (url, key)
         copy.querySelector(".piece-dim").textContent = jewelry.dimentions;
 
         //grab parent
-        const parent = document.querySelector("main");
+        const parent = document.querySelector(".product_inf");
         //append child
         parent.appendChild(copy);
 

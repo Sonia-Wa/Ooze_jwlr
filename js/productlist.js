@@ -1,3 +1,5 @@
+const urlParams = new URLSearchParams(window.location.search);
+
 const url = "https://kea21s2-040e.restdb.io/rest/ooze-database";
 
 const key = {
@@ -29,6 +31,8 @@ fetch (url, key)
         const copy = template.cloneNode(true);
 
         //content change
+        copy.querySelector(".prodview-link").href = `product.html?id=${jewelry.id}`;
+
         copy.querySelector("img").src = jewelry.image;
 
         copy.querySelector(".piece-name").textContent = jewelry.name;
