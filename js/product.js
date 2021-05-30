@@ -13,17 +13,9 @@ const key = {
 
 
 
-fetch (url, key) 
-    .then(function (res) {
-        return res.json();
-    })
-    .then(function (data){
-        prodView(data);
-    });
-
-    function prodView(data) {
-        data.forEach(showProduct);
-    }
+  fetch(url, key)
+  .then((res) => res.json())
+  .then((data) => showProduct(data));
 
 
     function showProduct(jewelry) {
