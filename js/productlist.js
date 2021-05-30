@@ -31,7 +31,7 @@ fetch (url, key)
         const copy = template.cloneNode(true);
 
         //content change
-        copy.querySelector(".prodview-link").href = `product.html?id=${jewelry.id}`;
+        copy.querySelector(".prodview-link").href =  `product.html?id=${jewelry._id}`;
 
         copy.querySelector("img").src = jewelry.image;
 

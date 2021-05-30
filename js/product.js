@@ -1,9 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
+
 //in the URL grab ID and store it's value in id
 const id = urlParams.get("id");
 
-const url = "https://kea21s2-040e.restdb.io/rest/ooze-database?id=" +
-id;
+const url = "https://kea21s2-040e.restdb.io/rest/ooze-database/" + id;
 
 const key = {
     headers: {
