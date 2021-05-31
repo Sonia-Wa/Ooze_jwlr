@@ -1,0 +1,18 @@
+
+main {
+   display: grid;
+    grid-template-columns: auto auto auto; 
+    justify-content: center; 
+    padding: 4vw;
+}
+
+.temp{     
+    justify-content: center; 
+    padding: 4vw;
+}
+
+img {
+    height: 105%;
+    width: 105%;
+}
+
