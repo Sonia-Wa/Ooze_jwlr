@@ -6,36 +6,16 @@ body {
     background-size: cover;
 }
 
-
-main {
-   display: grid;
-    grid-template-columns: auto auto auto; 
-    justify-content: center; 
-    padding: 4vw;
-}
-
-.temp{     
-    justify-content: center; 
-    padding: 4.5vw;
-}
-
-img {
-    height: 105%;
-    width: 105%;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#logo {
+    background-image: url();
 }
 
 header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 20vw;
-    padding-left: 20vw;
+    padding-right: 40vw;
+    padding-left: 40vw;
     padding-bottom: 2vw;
     text-decoration: none;
 
@@ -44,29 +24,21 @@ header ul {
 header li {
     text-align: center;
     list-style: none;
-
 }
 
 ul {
     font-size: 2vw;
 }
 
-
-p {
-    
-}
-
-
 a {
     text-decoration: none;
+    color: rgb(255, 91, 192);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
-a :link {
-    color: black;
-}
 a :visited {
-    color: black;
+    color: rgb(255, 91, 192);
 }
 a :hover {
     color: rgb(139, 255, 61);
@@ -74,4 +46,3 @@ a :hover {
 a :active {
     color: rgb(255, 91, 192);
 }
-
