@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
     background-image: url(sky.png);
     background-position: center;
@@ -6,40 +8,85 @@ body {
     background-size: cover;
 }
 
+
+
 .items {
     display: flex;
     flex-direction: row;
     align-items:center;  
     padding-left: 3vw;
     padding-bottom: 5vw;
-
 }
 
 .text {
     display: flex;
     flex-direction: column;
     padding-right: 3vw;
+    padding-bottom: 12vw;
+    margin-bottom: -10px;
+}
+
+#logo {
+    height: 60%;
+    width: 40%;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 4vw;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: -10px;
 }
+
+h3 {
+    font-size: 2vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2vw;
+}
+
+.dim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.mat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2vw;
+    border-top: 1px solid black;
+}
+
+
 
 header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 20vw;
-    padding-left: 20vw;
-    padding-bottom: 2vw;
+    padding-right: 30vw;
+    padding-left: 30vw;
     text-decoration: none;
-
 }
 
 header li {
     text-align: center;
     list-style: none;
-
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 91, 192);
 }
 
 ul {
@@ -48,15 +95,9 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-a :link {
-    color: rgb(255, 91, 192);
-}
-
-a :visited {
-    color: rgb(255, 91, 192);
-}
 
 a :hover {
     color: rgb(139, 255, 61);

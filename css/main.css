@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
     background-image: url(sky.png);
     background-position: center;
@@ -7,7 +9,7 @@ body {
 }
 
 #logo {
-    background-image: url();
+    padding-left: 21vw;
 }
 
 header ul {
@@ -24,6 +26,8 @@ header ul {
 header li {
     text-align: center;
     list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 91, 192);
 }
 
 ul {
@@ -32,8 +36,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(255, 91, 192);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
