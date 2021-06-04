@@ -19,12 +19,21 @@
         </nav>
     </header>
 
-    <h1>all Products</h1>
+    <div id="filt">
+        <h1>all products</h1>
 
-    <div class="filter">
-        <a href="productlist.html?prod_type=keychain" id="key">keychains</a>
-        <a href="productlist.html?prod_type=necklace" id="neck">necklaces</a>
-        <a href="productlist.html?prod_type=ring" id="ring">rings</a>
+        <div class="click">
+            <button onclick="dropFunction()" class="choose">
+                <p>filter ▼</p>
+            </button>
+            <div id="dropDown" class="filter-content">
+                <a href="productlist.html?prod_type=keychain" id="key" class="fltr">keychains</a>
+                <a href="productlist.html?prod_type=necklace" id="neck" class="fltr">necklaces</a>
+                <a href="productlist.html?prod_type=ring" id="ring" class="fltr">rings</a>
+                <a href="productlist.html" id="all" class="fltr">all</a>
+            </div>
+        </div>
+        
     </div>
 
 

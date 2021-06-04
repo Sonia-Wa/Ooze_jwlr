@@ -56,3 +56,21 @@ fetch (urlAll, key)
 
     }
 
+
+
+    function dropFunction() {
+        document.querySelector("#dropDown").classList.toggle("show");
+      
+        window.onclick = function (event) {
+          if (!event.target.matches(".choose")) {
+            let dropdowns = document.querySelector(".filter-content");
+            let i;
+            for (i = 0; i < dropdowns.clientHeight; i++) {
+              let openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains("show")) {
+                openDropdown.classList.remove("show");
+              }
+            }
+          }
+        };
+      }
