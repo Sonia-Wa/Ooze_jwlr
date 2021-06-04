@@ -27,8 +27,7 @@ body {
 }
 
 #logo {
-    padding-left: 21vw;
-     
+    padding-left: 21vw; 
 }
 
 #main-img {
@@ -44,7 +43,6 @@ header ul {
     padding-left: 40vw;
     padding-bottom: 2vw;
     text-decoration: none;
-
 }
 
 header li {
@@ -116,3 +114,68 @@ footer {
     font-size: 1.5vw;
 }
 
+
+/*mobile*/
+
+@media only screen and (max-width:1000px) {
+
+    ul {
+        font-size: 8vw;
+    }
+
+    header ul {
+        justify-content: space-between;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        padding-bottom: 10vw;
+        padding-top: 3vw;    
+    }
+
+    #logo {
+        padding-left: 0vw; 
+        padding-bottom: 10vw;
+
+    }
+
+    #main-img {
+        height: 220%;
+        width: 110%; 
+        margin-left: -6vw;
+    }
+
+    #main1 {
+        background-image: url(.);
+    
+        margin-top: -3vw;
+        height: 120vw;
+    }
+    
+    #main2 {
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #ftr {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 3vw;
+        padding-bottom: 5vw;
+    }
+    
+    #log-txt {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3vw;
+    }
+    
+    .footrtxt {
+        font-size: 4vw;
+    }
+    
+    .footrh {
+        font-size: 4.5vw;
+    }
+
+}
