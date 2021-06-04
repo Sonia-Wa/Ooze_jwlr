@@ -14,12 +14,17 @@ main {
    display: grid;
     grid-template-columns: auto auto auto; 
     justify-content: center; 
-    padding: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: -5vw;
 }
 
 .temp{     
     justify-content: center; 
-    padding: 4.5vw;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+    padding-bottom: 6.8vw;
+    padding-top: -3vw;
 }
 
 img {
@@ -55,7 +60,7 @@ ul {
 }
 
 #logo {
-    height: 60%;
+    height: 80%;
     width: 40%;
 }
 
@@ -85,4 +90,44 @@ a :hover {
 a :active {
     color: rgb(139, 255, 61);
 }
+
+footer {
+    background-color: #C3E7A7;
+    width: 100%;  
+    padding-right: 1.5vw;
+    margin-left: -1vw; 
+    padding-top: 2vw;
+}
+
+#ftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2vw;
+
+}
+
+#log-txt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+
+#small-log {
+    height: 60%;
+    width: 25%;
+}
+
+.footrtxt {
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2vw;
+}
+
+.footrh {
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+}
+
 
