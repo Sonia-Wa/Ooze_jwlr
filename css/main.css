@@ -18,7 +18,13 @@ body {
 }
 
 #logo {
-    padding-left: 21vw;  
+    padding-left: 21vw;
+     
+}
+
+img {
+    height: 150%;
+    width: 75%; 
 }
 
 header ul {
