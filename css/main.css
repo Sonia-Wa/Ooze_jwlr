@@ -8,13 +8,22 @@ body {
     background-size: cover;
 }
 
+
 #main1 {
+    background-image: url(sky.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     margin-top: -3vw;
     height: 60vw;
 }
 
-#vid {
-    position: absolute;
+#main2 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #logo {
@@ -22,7 +31,7 @@ body {
      
 }
 
-img {
+#main-img {
     height: 150%;
     width: 75%; 
 }
