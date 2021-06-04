@@ -1,6 +1,14 @@
 const urlParams = new URLSearchParams(window.location.search);
 
-const url = "https://kea21s2-040e.restdb.io/rest/ooze-database";
+let urlAll = "https://kea21s2-040e.restdb.io/rest/ooze-database";
+
+const prod_type = urlParams.get("prod_type");
+
+if (prod_type) {
+    console.log(prod_type);
+    urlAll = "https://kea21s2-040e.restdb.io/rest/ooze-database?prod_type=" + `&q={"prod_type":{"$elemMatch":"${prod_type}"}}` ;
+  }
+
 
 const key = {
     headers: {
@@ -8,9 +16,7 @@ const key = {
     },
   };
 
-
-
-fetch (url, key) 
+fetch (urlAll, key) 
     .then(function (res) {
         console.log(res);
         return res.json();
@@ -38,6 +44,10 @@ fetch (url, key)
         copy.querySelector(".piece-name").textContent = jewelry.name;
 
         copy.querySelector(".piece-price").textContent = `${jewelry.price} PLN`;
+
+        if (prod_type) {
+            document.querySelector("h1").textContent = prod_type;
+          }
 
         //grab parent
         const parent = document.querySelector("main");
