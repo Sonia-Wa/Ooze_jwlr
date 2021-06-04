@@ -10,25 +10,17 @@ body {
 }
 
 
-
-.filter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 3vw;
-}
-
-.fltr {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5vw;
-    text-decoration: underline;
-    color: rgb(255, 91, 192);
-}
-
-
 h1 {
     font-family: 'Quicksand', sans-serif;
-    padding-left: 13vw;
+}
+
+#filt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 10vw 3vw 10vw;
+    margin-top: -2vw;
+    
 }
 
 main {
@@ -196,6 +188,8 @@ footer {
     display: block;
     text-decoration: none;
     font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
   }
   
   .filter-content a:hover {
