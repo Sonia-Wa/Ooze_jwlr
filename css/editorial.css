@@ -8,6 +8,11 @@ body {
     background-size: cover;
 }
 
+#logo {
+    height: 60%;
+    width: 60%;
+}
+
 header ul {
     display: flex;
     flex-direction: row;
@@ -25,11 +30,6 @@ header li {
 
 ul {
     font-size: 2vw;
-}
-
-#logo {
-    height: 80%;
-    width: 40%;
 }
 
 a {
@@ -73,7 +73,7 @@ footer {
 
 #small-log {
     height: 60%;
-    width: 25%;
+    width: 60%;
 }
 
 .footrtxt {
@@ -93,7 +93,7 @@ footer {
 @media only screen and (max-width:1000px) {
 
     ul {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     header ul {
@@ -140,7 +140,11 @@ footer {
         padding-bottom: 5vw;
     }
 
-    #small-log  {margin-left: 4vw;}
+    #small-log  {
+        margin-left: 2vw;
+        width: 40%;
+        height: 40%;
+    }
     
     #log-txt {
         display: flex;
