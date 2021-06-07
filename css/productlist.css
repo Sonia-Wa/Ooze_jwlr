@@ -267,3 +267,47 @@ footer {
         font-size: 4.5vw;
         margin-left: 2vw;
     }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    /*filter*/
+    .choose {
+        border: black 1px solid;
+        padding-bottom: 5vw;
+        margin-top: 4vw;
+        width: 25vw;
+      }
+      .filter-content a {
+          font-size: 5vw;
+          padding: 2vw 2vw;
+      }
+
+      .filter-content {
+        min-width: 8vw;
+      }
+
+
+      /*end*/
+
+      p {
+          font-size: 4vw;
+      }
+
+      main {
+         grid-template-columns: auto auto; 
+         padding-left: 0vw;
+         padding-right: 0vw;
+     }
+
+     .temp{     
+        padding-right: 2vw;
+        padding-left: 2vw;
+        padding-bottom: 12vw;
+        padding-top: 4vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
