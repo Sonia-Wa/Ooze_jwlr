@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+#logo {
+    height: 60%;
+    width: 60%;
+}
 
 #main1 {
     background-image: url(sky.gif);
@@ -20,13 +24,13 @@ body {
 }
 
 #main2 {
-    background-image: url();
+    background-image: url(sky1.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-#logo {
+#green {
     padding-left: 21vw; 
 }
 
@@ -39,9 +43,8 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 40vw;
-    padding-left: 40vw;
-    padding-bottom: 2vw;
+    padding-right: 30vw;
+    padding-left: 30vw;
     text-decoration: none;
 }
 
@@ -74,6 +77,10 @@ a :active {
     color: rgb(255, 91, 192);
 }
 
+#small-log {
+    height: 60%;
+    width: 60%;
+}
 
 footer {
     background-color: #C3E7A7;
@@ -97,11 +104,6 @@ footer {
     padding-left: 2vw;
 }
 
-#small-log {
-    height: 60%;
-    width: 25%;
-}
-
 .footrtxt {
     color: gray;
     font-family: 'Quicksand', sans-serif;
@@ -120,7 +122,13 @@ footer {
 @media only screen and (max-width:1000px) {
 
     ul {
-        font-size: 8vw;
+        font-size: 6vw;
+    }
+
+    #logo {
+        padding-left: 0vw; 
+        padding-bottom: 10vw;
+
     }
 
     header ul {
@@ -131,7 +139,7 @@ footer {
         padding-top: 3vw;    
     }
 
-    #logo {
+    #green {
         padding-left: 0vw; 
         padding-bottom: 10vw;
 
@@ -168,7 +176,11 @@ footer {
         padding-bottom: 5vw;
     }
 
-    #small-log  {margin-left: 4vw;}
+    #small-log  {
+        margin-left: 2vw;
+        width: 40%;
+        height: 40%;
+    }
     
     #log-txt {
         display: flex;
