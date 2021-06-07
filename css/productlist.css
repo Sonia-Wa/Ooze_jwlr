@@ -103,6 +103,8 @@ a :active {
     color: #C3E7A7;
 }
 
+
+
 /*footer*/
 
 footer {
@@ -143,6 +145,22 @@ footer {
     color: gray;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5vw;
+}
+
+#some1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#ig {
+    height: 30%;
+    width: 30%;
+    padding-bottom: 0.5vw;
+}
+
+#tt {
+    height: 30%;
+    width: 30%;
 }
 
 
@@ -208,8 +226,21 @@ footer {
         font-size: 6vw;
     }
 
-    #small-log {
-       
+    #some1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ig {
+        height: 50%;
+        width: 50%;
+        padding-bottom: 0.5vw;
+    }
+    
+    #tt {
+        height: 50%;
+        width: 50%;
+        padding-bottom: 0.5vw;
     }
 
     header ul {
