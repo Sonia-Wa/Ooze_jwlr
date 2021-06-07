@@ -110,6 +110,7 @@ footer {
     padding-right: 1.5vw;
     margin-left: -1vw; 
     padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 #ftr {
@@ -151,10 +152,6 @@ footer {
         font-size: 6vw;
     }
 
-    #small-log {
-        width: 40%;
-        height: 40%;
-    }
 
     header ul {
         justify-content: space-between;
@@ -201,7 +198,11 @@ footer {
         padding-bottom: 5vw;
     }
 
-    #small-log  {margin-left: 4vw;}
+    #small-log  {
+        margin-left: 2vw;
+        width: 40%;
+        height: 40%;
+    }
     
     #log-txt {
         display: flex;

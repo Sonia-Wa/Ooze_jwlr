@@ -72,8 +72,8 @@ ul {
 }
 
 #logo {
-    height: 80%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
 }
 
 h2 {
@@ -111,6 +111,7 @@ footer {
     padding-right: 1.5vw;
     margin-left: -1vw; 
     padding-top: 2vw;
+    padding-bottom: 3vw;
 }
 
 #ftr {
@@ -129,7 +130,7 @@ footer {
 
 #small-log {
     height: 60%;
-    width: 25%;
+    width: 60%;
 }
 
 .footrtxt {
@@ -204,7 +205,11 @@ footer {
 @media only screen and (max-width:1000px) {
 
     ul {
-        font-size: 8vw;
+        font-size: 6vw;
+    }
+
+    #small-log {
+       
     }
 
     header ul {
@@ -213,10 +218,6 @@ footer {
         padding-left: 10vw;
         padding-bottom: 10vw;
         padding-top: 3vw;    
-    }
-
-    #logo {
-
     }
 
     #main-img {
@@ -250,7 +251,19 @@ footer {
         padding-bottom: 5vw;
     }
 
-    #small-log  {margin-left: 4vw;}
+    #small-log  {
+        margin-left: 2vw;
+        width: 40%;
+        height: 40%;
+    }
+
+    #cont {
+        padding-bottom: 6vw;
+    }
+
+    #supp {
+        padding-bottom: 6vw;
+    }
     
     #log-txt {
         display: flex;
