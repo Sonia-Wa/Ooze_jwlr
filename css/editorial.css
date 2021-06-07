@@ -8,6 +8,36 @@ body {
     background-size: cover;
 }
 
+main {
+    height: 175vw;
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 8vw;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 4vw;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 4vw;
+}
+
+img {
+    height: 60%;
+    width: 30%;
+}
+
 #logo {
     height: 60%;
     width: 60%;
@@ -91,6 +121,37 @@ footer {
 /*mobile*/
 
 @media only screen and (max-width:1000px) {
+
+    main {
+        height: 1260vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+        margin-top: -12vw;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0vw;
+        padding-left: 0vw;
+
+    }
+    
+    .three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0vw;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
 
     ul {
         font-size: 6vw;
