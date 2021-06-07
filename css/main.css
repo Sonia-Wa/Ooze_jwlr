@@ -156,6 +156,10 @@ footer {
         background-position: center;
         background-size: cover;
     }
+
+    footer  {padding-right: 4.1vw;
+        margin-left: -2.1vw;
+        margin-bottom: -1.8vw;}
     
     #ftr {
         display: flex;
@@ -163,6 +167,8 @@ footer {
         padding-left: 3vw;
         padding-bottom: 5vw;
     }
+
+    #small-log  {margin-left: 4vw;}
     
     #log-txt {
         display: flex;
@@ -172,10 +178,12 @@ footer {
     
     .footrtxt {
         font-size: 4vw;
+        margin-left: 4vw;
     }
     
     .footrh {
         font-size: 4.5vw;
+        margin-left: 2vw;
     }
 
 }
